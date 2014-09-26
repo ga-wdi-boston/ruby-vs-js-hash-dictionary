@@ -1,4 +1,6 @@
 return!
+return returns!
+# my score is 6/6
 
 # Hash#fetch
 
