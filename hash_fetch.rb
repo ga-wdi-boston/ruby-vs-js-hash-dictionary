@@ -1,3 +1,5 @@
+return!
+
 # Hash#fetch
 
 # Why use fetch?
@@ -38,7 +40,7 @@ valid = valid_email?(auth[:info][:email])
 ############Exit Program #######################
 # comment out failing method above and move this down as you work thru
 # this.
-exit 
+exit
 
 
 # Better:
@@ -65,7 +67,7 @@ puts valid_email?(email_address) ? "VALID EMAIL" : "INVALID VALID EMAIL"
 # For lots of calls to fetch where accessing a missing key should all be handled the same way
 default_proc = ->(key) do
   puts "#{key} not found, please enter it:"
-  gets 
+  gets
 end
 
 location = { }
